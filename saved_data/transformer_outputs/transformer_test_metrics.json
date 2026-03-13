@@ -1,0 +1,20 @@
+{
+  "model": "Transformer-standard",
+  "config": {
+    "d_model": 128,
+    "num_heads": 4,
+    "num_layers": 2,
+    "dropout": 0.1,
+    "embed_dim": 16
+  },
+  "test_accuracy": 0.7822,
+  "weighted_f1": 0.7824,
+  "macro_f1": 0.7798,
+  "mae_ordinal": 0.2285,
+  "tol1_accuracy": 0.9932,
+  "xgboost_baseline": {
+    "accuracy": 0.7912,
+    "weighted_f1": 0.7908,
+    "mae": 0.2119
+  }
+}
